@@ -236,4 +236,11 @@ footer p {
         padding: 5px 10px; /* Adjust padding for buttons */
         font-size: 12px; /* Smaller font size for buttons */
     }
+    footer {
+        padding: 10px; /* Adjust padding for footer */
+        text-align: center; /* Ensure text is centered */
+    }
+    footer p {
+        font-size: 12px; /* Adjust font size for footer text */
+    }
 }
