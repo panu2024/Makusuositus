@@ -1,0 +1,207 @@
+/* Yleinen tyyli */
+body {
+    font-family: 'Liter', sans-serif;
+    background: linear-gradient(to bottom, #a67c52, #e6d3b3, #a67c52); /* Gradientti ylä- ja alapalkin väristä keskimmäiseen vaaleampaan väriin */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Vähintään koko näytön korkeus */
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Estää sivuttaisen vierityksen */
+}
+
+/* Navigointivalikko */
+header {
+    display: flex;
+    justify-content: space-between; /* Siirretään navigointipainikkeet oikealle */
+    align-items: center;
+    padding: 10px 20px; /* Ohuempi yläpalkki */
+    background-color: #a67c52; /* Hieman tummempi ruskea yläpalkki */
+    box-shadow: none; /* Poistettu varjo */
+    width: 100%;
+}
+
+header h1 {
+    font-size: 24px; /* Pienempi fonttikoko */
+    margin: 0;
+    color: #e6d3b3; /* Otsikko kermanruskeaksi */
+}
+
+nav {
+    margin-right: 40px; /* Jätetään enemmän marginaalia oikealle */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Jakaa navigointipainikkeet tasaisesti */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Täyttää koko leveyden */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #7a5230; /* Hieman tummempi kahvipavun väri */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 50px; /* Pyöristetyt reunat */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #5e3e24; /* Tummempi kahvipavun väri */
+    transform: scale(1.05);
+}
+
+/* Pääsisältö */
+main {
+    max-width: 1200px; /* Korjattu leveys */
+    margin: 20px auto;
+    text-align: left; /* Tekstit vasemmalle */
+    padding: 20px;
+    background: rgba(230, 211, 179, 0.8); /* Läpikuultava kermanruskea tausta */
+    box-shadow: none; /* Poistettu varjo */
+    border-radius: 10px; /* Pyöristetyt reunat */
+    flex: 1; /* Täyttää jäljellä olevan tilan */
+    overflow-x: hidden; /* Estää sivuttaisen vierityksen */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #333; /* Tekstin väri mustaksi */
+}
+
+/* Painikkeet */
+a, .button {
+    display: inline-block;
+    background-color: #7a5230; /* Hieman tummempi kahvipavun väri */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px; /* Pyöristetyt reunat */
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover, .button:hover {
+    background-color: #5e3e24; /* Tummempi kahvipavun väri */
+    transform: scale(1.05);
+}
+
+.center-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a67c52; /* Hieman tummempi ruskea alapalkki */
+    margin-top: 40px;
+    box-shadow: none; /* Poistettu varjo */
+    width: 100%;
+    color: #e6d3b3; /* Tekstin väri kermanruskeaksi */
+}
+
+footer p {
+    color: #e6d3b3; /* Tekstin väri kermanruskeaksi */
+}
+
+/* Responsiivisuus */
+@media (max-width: 1200px) { /* Suuret tabletit ja pienet kannettavat */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav {
+        margin-right: 20px; /* Vähemmän marginaalia oikealle */
+    }
+    main {
+        padding: 15px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 900px) { /* Tabletit */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px; /* Ohuempi yläpalkki */
+    }
+    nav {
+        margin-right: 10px; /* Vähemmän marginaalia oikealle */
+    }
+    main {
+        max-width: 100%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p {
+        font-size: 14px;
+    }
+    nav ul {
+        justify-content: space-between; /* Jakaa navigointipainikkeet tasaisesti */
+    }
+}
+
+@media (max-width: 600px) { /* Puhelimet */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px; /* Ohuempi yläpalkki */
+    }
+    nav {
+        margin-right: 5px; /* Vähemmän marginaalia oikealle */
+    }
+    main {
+        width: 100%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 12px;
+    }
+    nav ul {
+        justify-content: space-between; /* Jakaa navigointipainikkeet tasaisesti */
+    }
+}
