@@ -179,7 +179,7 @@ footer p {
     }
 }
 
-@media (max-width: 600px) { /* Puhelimet */
+@media (max-width: 750px) { /* Puhelimet */
     header {
         flex-direction: column;
         align-items: flex-start;
