@@ -207,6 +207,9 @@ footer p {
 }
 
 @media (max-width: 320px) { /* iPhone 4 */
+    body {
+        font-size: 14px; /* Adjust base font size for better readability */
+    }
     header {
         padding: 5px; /* Vielä ohuempi yläpalkki */
     }
@@ -217,20 +220,20 @@ footer p {
         padding: 5px;
     }
     h1 {
-        font-size: 20px;
+        font-size: 18px; /* Smaller font size for h1 */
     }
     h2 {
-        font-size: 18px;
+        font-size: 16px; /* Smaller font size for h2 */
     }
     p {
-        font-size: 10px;
+        font-size: 12px; /* Slightly larger font size for better readability */
     }
     nav ul li a {
-        padding: 5px 10px;
-        font-size: 12px;
+        padding: 5px 8px; /* Adjust padding for smaller buttons */
+        font-size: 10px; /* Smaller font size for navigation links */
     }
     a, .button {
-        padding: 5px 10px;
-        font-size: 14px;
+        padding: 5px 10px; /* Adjust padding for buttons */
+        font-size: 12px; /* Smaller font size for buttons */
     }
 }
