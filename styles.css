@@ -238,7 +238,7 @@ footer p {
     }
     footer {
         padding: 10px; /* Adjust padding for footer */
-        text-align: center; /* Ensure text is centered */
+        text-align: left; /* Ensure text is centered */
     }
     footer p {
         font-size: 12px; /* Adjust font size for footer text */
