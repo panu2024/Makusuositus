@@ -244,5 +244,6 @@ footer p {
     }
     footer p {
         font-size: 10px; /* Adjust font size for footer text */
+        margin: 0; /* Remove any default margin */
     }
 }
