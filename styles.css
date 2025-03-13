@@ -205,42 +205,44 @@ footer p {
         justify-content: space-between; /* Jakaa navigointipainikkeet tasaisesti */
     }
 }
-
 @media (max-width: 320px) { /* iPhone 4 */
     body {
-        font-size: 14px; /* Adjust base font size for better readability */
+        font-size: 12px; /* Adjust base font size for better readability */
     }
     header {
         padding: 5px; /* Vielä ohuempi yläpalkki */
+        text-align: left; /* Align text to the left */
     }
     nav {
         margin-right: 2px; /* Vähemmän marginaalia oikealle */
+        text-align: left; /* Align text to the left */
     }
     main {
         padding: 5px;
+        text-align: left; /* Align text to the left */
     }
     h1 {
-        font-size: 18px; /* Smaller font size for h1 */
+        font-size: 16px; /* Smaller font size for h1 */
     }
     h2 {
-        font-size: 16px; /* Smaller font size for h2 */
+        font-size: 14px; /* Smaller font size for h2 */
     }
     p {
-        font-size: 12px; /* Slightly larger font size for better readability */
+        font-size: 10px; /* Slightly larger font size for better readability */
     }
     nav ul li a {
         padding: 5px 8px; /* Adjust padding for smaller buttons */
-        font-size: 10px; /* Smaller font size for navigation links */
+        font-size: 8px; /* Smaller font size for navigation links */
     }
     a, .button {
         padding: 5px 10px; /* Adjust padding for buttons */
-        font-size: 12px; /* Smaller font size for buttons */
+        font-size: 10px; /* Smaller font size for buttons */
     }
     footer {
         padding: 10px; /* Adjust padding for footer */
-        text-align: left; /* Ensure text is centered */
+        text-align: left; /* Align text to the left */
     }
     footer p {
-        font-size: 12px; /* Adjust font size for footer text */
+        font-size: 10px; /* Adjust font size for footer text */
     }
 }
