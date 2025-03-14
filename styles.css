@@ -25,7 +25,7 @@ header {
 header h1 {
     font-size: 24px; /* Pienempi fonttikoko */
     margin: 0;
-    color: #ded4c3; /* Otsikko kermanruskeaksi */
+    color: #fff6e8; /* Otsikko kermanruskeaksi */
 }
 
 nav {
@@ -122,11 +122,11 @@ footer {
     margin-top: 40px;
     box-shadow: none; /* Poistettu varjo */
     width: 100%;
-    color: #ded4c3; /* Tekstin väri kermanruskeaksi */
+    color: #fff6e6; /* Tekstin väri kermanruskeaksi */
 }
 
 footer p {
-    color: #d4c9b7; /* Tekstin väri kermanruskeaksi */
+    color: #fff6e6; /* Tekstin väri kermanruskeaksi */
 }
 
 /* Responsiivisuus */
