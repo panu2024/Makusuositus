@@ -77,11 +77,13 @@ main {
 h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    color: #f0e6d2; /* Vaaleampi väri otsikolle */
 }
 
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
+    color: #f0e6d2; /* Vaaleampi väri h2-otsikolle */
 }
 
 p {
