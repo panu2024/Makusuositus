@@ -83,7 +83,7 @@ h1 {
 h2 {
     font-size: 28px;
     margin-bottom: 15px;
-    color: #f0e6d2; /* Vaaleampi väri h2-otsikolle */
+    color: #333; /* Vaaleampi väri h2-otsikolle */
 }
 
 p {
